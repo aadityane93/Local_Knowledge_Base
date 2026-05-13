@@ -137,7 +137,6 @@ vectordb = Chroma.from_documents(
     persist_directory=str(PERSIST_DIR),
 )
 
-
 try:
     vectordb.persist()
 except Exception:
