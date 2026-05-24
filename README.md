@@ -1,4 +1,4 @@
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 1. Indexer.py    → prepares the RAG vector database
