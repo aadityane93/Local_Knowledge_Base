@@ -11,3 +11,7 @@ pandas
 openpyxl
 tqdm
 ollama
+faiss-cpu
+langchain-huggingface
+langchain-chroma
+langchain-ollama
