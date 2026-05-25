@@ -11,7 +11,8 @@ from langchain_community.document_loaders import (
 )
 
 
-DOCUMENTS_PATH = Path.home() / "Documents"
+BASE_DIR = Path(__file__).resolve().parent
+DOCUMENTS_PATH = BASE_DIR / "PLACE_FILES_HERE"
 
 MODEL_NAME = "gemma_4b_local"
 
