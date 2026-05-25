@@ -10,7 +10,7 @@ How it works:
 
 1. Indexer.py    → prepares the RAG vector database
 
-                  Documents folder
+                  PLACE_FILES_HERE folder
                      ↓
                   Find supported files
                      ↓
@@ -50,7 +50,7 @@ How it works:
 
 3. Cag_based_query.py  asks questions using the full loaded context
                 
-                  Documents
+                  PLACE_FILES_HERE
                      ↓
                   Load complete document text
                      ↓
