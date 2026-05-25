@@ -19,9 +19,9 @@ from langchain_community.embeddings import HuggingFaceEmbeddings
 BASE_DIR = Path(__file__).resolve().parent
 PERSIST_DIR = BASE_DIR / "chroma_db"
 
-DOCUMENTS_PATH = Path.home() / "Documents"
+DOCUMENTS_PATH = BASE_DIR / "PLACE_FILES_HERE"
 
-print("Documents folder:", DOCUMENTS_PATH)
+print("Source folder:", DOCUMENTS_PATH)
 print("Chroma DB will be stored at:", PERSIST_DIR)
 
 
