@@ -1,5 +1,12 @@
-`pip install -r requirements.txt`
+Place your industrial manuals, technical documentation, or reference materials in the `PLACE_FILES_HERE` directory.
 
+`python -m venv venv`
+`pip install -r requirements.txt`
+`venv/Scripts/activate`
+
+
+
+How it works:
 
 1. Indexer.py    → prepares the RAG vector database
 
